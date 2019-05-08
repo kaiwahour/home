@@ -26,9 +26,9 @@ yarn start
 (Scripts for building website and deploying to Github will be added shortly)
 
 
-## TODO
+## Getting involved
 
-- [ ] Insert `CONTRIBUTING.md` document describing how to contribute
-- [ ] Set up project structure 
-    - [ ] Set up basic routing
-    - [ ] *Add more things here*
+Want to get involved? Check out the open 
+[Issues](https://github.com/kaiwahour/kaiwahour.github.io/issues) for this 
+project. More detailed guidelines and instructions on contributing will soon 
+be added.

@@ -22,10 +22,6 @@ Start the development server with
 ```bash
 yarn start
 ```
-
-(Scripts for building website and deploying to Github will be added shortly)
-
-
 ## Getting involved
 
 Want to get involved? Check out the open 

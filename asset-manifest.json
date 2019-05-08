@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d9539ee.chunk.css",
-    "main.js": "/static/js/main.d9e1bec6.chunk.js",
-    "main.js.map": "/static/js/main.d9e1bec6.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.733db63d.chunk.js": "/static/js/2.733db63d.chunk.js",
-    "static/js/2.733db63d.chunk.js.map": "/static/js/2.733db63d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1dd7c647cbd6c9352f5f594dda154e6e.js": "/precache-manifest.1dd7c647cbd6c9352f5f594dda154e6e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2d9539ee.chunk.css.map": "/static/css/main.2d9539ee.chunk.css.map"
+    "main.css": "/kaiwahour/home/static/css/main.2d9539ee.chunk.css",
+    "main.js": "/kaiwahour/home/static/js/main.b45f8616.chunk.js",
+    "main.js.map": "/kaiwahour/home/static/js/main.b45f8616.chunk.js.map",
+    "runtime~main.js": "/kaiwahour/home/static/js/runtime~main.a03aea3c.js",
+    "runtime~main.js.map": "/kaiwahour/home/static/js/runtime~main.a03aea3c.js.map",
+    "static/js/2.733db63d.chunk.js": "/kaiwahour/home/static/js/2.733db63d.chunk.js",
+    "static/js/2.733db63d.chunk.js.map": "/kaiwahour/home/static/js/2.733db63d.chunk.js.map",
+    "index.html": "/kaiwahour/home/index.html",
+    "precache-manifest.1069eca6bcaee8f3c11e7d8427c7b9a0.js": "/kaiwahour/home/precache-manifest.1069eca6bcaee8f3c11e7d8427c7b9a0.js",
+    "service-worker.js": "/kaiwahour/home/service-worker.js",
+    "static/css/main.2d9539ee.chunk.css.map": "/kaiwahour/home/static/css/main.2d9539ee.chunk.css.map"
   }
 }

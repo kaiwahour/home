@@ -1,6 +1,6 @@
 {
-  "name": "kaiwahour.github.io",
-  "homepage": "https://github.com/kaiwahour/home",
+  "name": "Kaiwa Hour Home Page",
+  "homepage": "https://kaiwahour.github.io/home",
   "version": "0.1.1",
   "private": true,
   "dependencies": {

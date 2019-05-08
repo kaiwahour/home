@@ -19,6 +19,13 @@
   color: white;
 }
 
+/* Class for body text */
+.App-content {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -31,3 +38,4 @@
     transform: rotate(360deg);
   }
 }
+

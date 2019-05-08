@@ -10,10 +10,6 @@ nav li {
   float: left;
 }
 
-nav #language-switcher {
-  float: right;
-}
-
 nav li a {
   display: block;
   color: black;

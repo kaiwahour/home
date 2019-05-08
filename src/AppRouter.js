@@ -35,20 +35,7 @@ const AppRouter = () => {
             <li>
               <Link to="/contributing/">Contributing</Link>
             </li>
-            <div id="language-switcher">
-              <li> 
-                <a href="/translating?lang=jp">日本語</a>
-              </li>
-              <li>
-                <a href="/translating?lang=zh">中文</a>
-              </li>
-              <li>
-                <a href="/translating?lang=ko">한국어</a>
-              </li>
-              <li>
-                <a href="/translating?lang=ko">Español</a>
-              </li>
-            </div>
+
           </ul>
         </nav>
 
@@ -59,6 +46,8 @@ const AppRouter = () => {
         <Route path="/translating/" component={Translating} />
       </div>
     </Router>
+
+
   );
 }
 

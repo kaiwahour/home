@@ -1,0 +1,26 @@
+#footer {
+  display: flex;
+  flex-flow: row wrap;
+  background: #eeeeee;
+  text-align: left;
+}
+
+#footer .footerBlock {
+  padding: 10px;
+}
+
+#footer #sponsors-and-affiliates {
+  flex-grow: 2
+}
+
+#footer #social-media {
+  flex-grow: 2;
+}
+
+#footer #language-switcher {
+  flex-grow: 2;
+}
+
+#footer #legal-stuff {
+  flex-grow: 1;
+}

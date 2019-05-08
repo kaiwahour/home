@@ -2,14 +2,15 @@ import React from 'react';
 import './App.css';
 
 import AppRouter from './AppRouter';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
       <AppRouter />
-
-      {/* Footer Component can go here */}
+      <Footer />
     </div>
+
   );
 }
 

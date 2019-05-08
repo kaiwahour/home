@@ -1,0 +1,27 @@
+.Home-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.Home-container div {
+  display: inline-block;
+  flex-grow: 3;
+}
+
+.Home-container #front-text {
+  padding: 10px; /* Some breathing room pls */
+}
+
+.Home-container #meeting-time {
+  font-size: 150%;
+}
+
+#front-images {
+  background-image: url("/images/sakuras.jpg");
+  background-size: cover;
+  flex-grow: 1;
+}
+
+#front-images p {
+  background: rgba(255, 255, 255, 0.7);
+}

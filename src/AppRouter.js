@@ -19,7 +19,7 @@ const Translating =  () =>
 
 const AppRouter = () => {
   return (
-    <Router className="appRouter">
+    <Router className="appRouter" basename={'/home'}>
       <div>
         <nav>
           <ul>

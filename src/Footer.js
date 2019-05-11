@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Footer.css';
 
 const Footer = () =>
@@ -19,10 +20,10 @@ const Footer = () =>
     <div id="language-switcher" className="footerBlock">
       <p>This page in other languages</p>
       <ul>
-        <li><a href="/translating?lang=jp">日本語</a></li>
-        <li><a href="/translating?lang=zh">中文</a></li>
-        <li><a href="/translating?lang=ko">한국어</a></li>
-        <li><a href="/translating?lang=ko">Español</a></li>
+        <li><Link to="/translating?lang=jp">日本語</Link></li>
+        <li><Link to="/translating?lang=zh">中文</Link></li>
+        <li><Link to="/translating?lang=ko">한국어</Link></li>
+        <li><Link href="/translating?lang=ko">Español</Link></li>
       </ul>
     </div>
     <div id="legal-stuff" className="footerBlock">

@@ -4,18 +4,11 @@ import './AppRouter.css'
 
 // These should each return a single Component/function representing the page
 import Home from './Home'
-import Faq from './Faq'
 import About from './About'
 import Contributing from './Contributing'
-
-const Translating =  () =>
-  <div>
-    <h2>Translating</h2>
-    <p>
-      We willl provide this website in multiple languages, translated by human 
-      beings with idiomatic flair!
-    </p>
-  </div>
+import Faq from './Faq'
+import Footer from './Footer';
+import Translating from './Translating'
 
 const AppRouter = () => {
   return (
@@ -45,6 +38,9 @@ const AppRouter = () => {
         <Route path="/contributing/" component={Contributing} />
         <Route path="/translating/" component={Translating} />
       </div>
+
+      <Footer />
+
     </Router>
 
 

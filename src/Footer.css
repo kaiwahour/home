@@ -9,6 +9,11 @@
   padding: 10px;
 }
 
+#footer .footerBlock ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
 #footer #sponsors-and-affiliates {
   flex-grow: 2
 }

@@ -1,0 +1,10 @@
+.Faq .Question {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.Faq .Question h3 {
+  color: #222;
+}
+.Faq .Question p {
+  color: black;
+}

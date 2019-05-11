@@ -23,7 +23,7 @@ const Footer = () =>
         <li><Link to="/translating?lang=jp">日本語</Link></li>
         <li><Link to="/translating?lang=zh">中文</Link></li>
         <li><Link to="/translating?lang=ko">한국어</Link></li>
-        <li><Link href="/translating?lang=ko">Español</Link></li>
+        <li><Link to="/translating?lang=ko">Español</Link></li>
       </ul>
     </div>
     <div id="legal-stuff" className="footerBlock">

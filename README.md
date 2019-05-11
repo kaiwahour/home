@@ -1,7 +1,7 @@
 # Kaiwa Hour Website
 
 Public facing website for Kaiwa Hour built in React. This website is current
-**under construction** and is not yet deployed.
+**under construction**. View the latest (pre-)deployment [here](https://kaiwahour.github.io/home/).
 
 ![Work in Progress](wip.jpg)
 

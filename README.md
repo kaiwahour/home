@@ -22,6 +22,11 @@ Start the development server with
 ```bash
 yarn start
 ```
+
+### Problems with `yarn`?
+
+First, try deleting `yarn.lock` and the `/node_modules` directory (if it exists). Then run `yarn`, and if that succeeds, run `yarn update`.
+
 ## Getting involved
 
 Want to get involved? Check out the open 

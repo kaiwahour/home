@@ -30,6 +30,6 @@ First, try deleting `yarn.lock` and the `/node_modules` directory (if it exists)
 ## Getting involved
 
 Want to get involved? Check out the open 
-[Issues](https://github.com/kaiwahour/kaiwahour.github.io/issues) for this 
+[Issues](https://github.com/kaiwahour/home/issues) for this 
 project. More detailed guidelines and instructions on contributing will soon 
 be added.

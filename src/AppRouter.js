@@ -28,7 +28,6 @@ const AppRouter = () => {
             <li>
               <Link to="/contributing/">Contributing</Link>
             </li>
-
           </ul>
         </nav>
 

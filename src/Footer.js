@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Footer.css';
+import { TwitterFollowButton } from 'react-twitter-embed';
 
 const Footer = () =>
   <div id="footer">
     <div id="social-media" className="footerBlock">
       <p>Find us on social media</p>
+      <TwitterFollowButton
+        screenName={'kaiwahour'}
+      />
       <ul>
-        <li><a href="https://twitter.com/kaiwahour">Twitter</a></li>
         <li><a href="https://www.facebook.com/kaiwahour/">Facebook</a></li>
         <li><a href="https://discord.gg/fra3Vym">Discord</a></li>
       </ul>

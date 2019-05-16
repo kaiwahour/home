@@ -1,5 +1,5 @@
 import React from 'react';
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import './Home.css'
 
 const Home = () =>
@@ -25,11 +25,13 @@ const Home = () =>
         <p>We don't want the Twitter component to be super-oversized.</p>
       </div>
 
-      <TwitterTimelineEmbed
-        sourceType="profile"
-        screenName="kaiwahour"
-        options={{height: 400}}
-      />
+      <div>
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="kaiwahour"
+          options={{height: 400}}
+        />
+      </div>
     </div>
   </div>
 export default Home;

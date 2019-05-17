@@ -4,43 +4,41 @@
   background: #ffeaee;
 }
 
+.footerBlock h4 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 #footer .footerBlock {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   text-align: center;
   padding: 10px;
 }
 
 #footer .footerBlock ul {
-
   list-style-type: none;
   padding: 10px;
-
-
 }
 
 #footer .language {
-    color: #F781BE;
+  color: #F781BE;
 }
 
 #footer #sponsors-and-affiliates {
   flex-grow: 2
-
 }
 
-#footer #facebook {
-    border: none;
-    overflow: hidden;
-}
  #footer #social-media {
+  display: block;
+  text-align: left;
   flex-grow: 2;
 } 
 
 #footer #language-switcher {
   flex-grow: 2;
-
 }
 
 #footer #legal-stuff {
+  background: #ffc8d2;
   flex-grow: 1;
 }

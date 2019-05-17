@@ -14,31 +14,40 @@ const Footer = () =>
       </FacebookProvider>
       {/* Other links here */}
       <ul>
-        <a href="https://discord.gg/fra3Vym">
-          <img
-            id="discord_logo" src="https://discordapp.com/assets/94db9c3c1eba8a38a1fcf4f223294185.png"
-            height="40px"
-            alt="Discord Logo"
-          />
-         </a>
+        
       </ul>
     </div>
 
     <div id="sponsors-and-affiliates" className="footerBlock">
       <h4>Sponsors and Affiliates</h4>
-      <h5 className="italics">Unofficial Connections</h5>
-      <a className="pink" href="http://bakuhatsutaikodan.weebly.com/">Bakuhatsu Taiko Dan</a><br/>
-      <a className="pink" href="https://www.facebook.com/davisanimeclub/">Davis Anime Club</a><br/>
-      <a className="pink" href="https://jassorg.wordpress.com/">Japanese American Student Society (JASS)</a><br/>
-      <a className="pink" href="https://www.facebook.com/groups/jlccdavis/">Japanese Language and Culture Connection (JLCC)</a><br/>
-      <a className="pink" href="https://www.facebook.com/groups/UCDJapaneseProgram/">UC Davis Japanese Program</a>
+      <h5>Study Japanese at UC Davis</h5>
+      <ul>
+        <li><a href="https://www.facebook.com/groups/jlccdavis/">Japanese Language and Culture Connection (JLCC)</a></li>
+      </ul>
+      <h5>More Japan-related action at UC Davis</h5>
+      <ul>
+        <li><a href="http://bakuhatsutaikodan.weebly.com/">Bakuhatsu Taiko Dan</a></li>
+        <li><a href="https://www.facebook.com/davisanimeclub/">Davis Anime Club</a></li>
+        <li><a href="https://jassorg.wordpress.com/">Japanese American Student Society (JASS)</a></li>
+        <li><a href="https://www.facebook.com/groups/UCDJapaneseProgram/">UC Davis Japanese Program</a></li>
+      </ul>
     </div>
 
     <div className="footerBlock">
       <h4>Contact</h4>
+      <h5>Text and Voice Chat</h5>
       <ul>
-        <li>Use FB for now.</li>
-        <li>Or, <a className="pink" href="https://github.com/kaiwahour">GitHub</a> for dev things.</li>
+        <li><a href="https://discord.gg/fra3Vym">
+          <img
+            id="discord_logo" src="https://discordapp.com/assets/94db9c3c1eba8a38a1fcf4f223294185.png"
+            height="40px"
+            alt="Discord Logo"
+          />
+         </a></li>
+       </ul>
+       <h5>Developers</h5>
+       <ul>
+        <li><a className="pink" href="https://github.com/kaiwahour/home">GitHub Repository</a></li>
       </ul>
     </div>
 

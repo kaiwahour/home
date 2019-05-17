@@ -31,6 +31,9 @@
     border: none;
     overflow: hidden;
 }
+.Home-container .pink{
+    color: #F781BE;
+}
 .slick-list {
     overflow: hidden;
     width: 100vw;

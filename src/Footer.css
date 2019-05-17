@@ -4,10 +4,24 @@
   background: #ffeaee;
 }
 
+#footer a { /* link r pink */
+  color: rgb(255, 82, 172);
+}
+
 .footerBlock h4 {
   font-weight: bolder;
   text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 14px;
 }
+
+.footerBlock h5 {
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 
 #footer .footerBlock {
   font-family: 'Roboto', sans-serif;
@@ -17,12 +31,14 @@
 
 #footer .footerBlock ul {
   list-style-type: none;
-  padding: 10px;
+  margin: 0px;
+  padding-left: 1em;
 }
 
 #footer .language {
   color: #F781BE;
 }
+
 
 #footer #sponsors-and-affiliates {
   flex-grow: 1
@@ -31,7 +47,7 @@
  #footer #social-media {
   display: block;
   flex-grow: 1;
-} 
+}
 
 #footer #language-switcher {
   flex-grow: 1;

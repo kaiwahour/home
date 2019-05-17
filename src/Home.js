@@ -44,11 +44,11 @@ export default class Home extends Component{
           </div>
 
           <div id="front-images">
-        
+
             <Slider {...settings} id="Slider">
               <div>
                 <h3>Hot Pot</h3>
-                <img className="image" 
+                <img className="image"
                   src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/53295624_2333580953588710_8542725741706477568_o.jpg?_nc_cat=109&_nc_ht=scontent-sjc3-1.xx&oh=3301eb267921a617f649fb4dbce907cc&oe=5D6D402E"
                   alt="Hot Pot"
                 />
@@ -89,7 +89,7 @@ export default class Home extends Component{
                 />
               </div>
             </Slider>
-            <p>Background photo by <a href="https://unsplash.com/@gaspanik">Masaaki Komori</a> on Unsplash</p>
+            <p>Background photo by <a className="pink" href="https://unsplash.com/@gaspanik">Masaaki Komori</a> on Unsplash</p>
           </div>
 
           <div className="App-content">

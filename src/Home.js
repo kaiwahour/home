@@ -46,28 +46,24 @@ export default class Home extends Component{
             <h3>Images and More</h3>
             <Slider {...settings} id="Slider">
               <div>
-                <img className="image" src="gym.jpg"/>
+                <h3>Can I has curry udon?</h3>
+                <img className="image" src="images/huskycat.jpg"/>
               </div>
               <div>
-                <img className="image" src="rajas.jpg"/>
+                <h3>Pls?</h3>
+                <img className="image" src="images/huskycat.jpg"/>
               </div>
               <div>
-                <img className="image" src="gym.jpg"/>
+                <h3><i>Onegaeshimasu?</i></h3>
+                <img className="image" src="images/gym.jpg"/>
               </div>
               <div>
-                <img className="image" src="gym.jpg"/>
+                <h3>Rajas</h3>
+                <img className="image" src="images/rajas.jpg"/>
               </div>
               <div>
-                <img className="image" src="gym.jpg"/>
-              </div>
-              <div>
-                <img className="image" src="gym.jpg"/>
-              </div>
-              <div>
-                <img className="image" src="gym.jpg"/>
-              </div>
-              <div>
-                <img className="image" src="gym.jpg"/>
+                <h3>Me again</h3>
+                <img className="image" src="images/huskycat.jpg"/>
               </div>
             </Slider>
             <p>Photo by <a href="https://unsplash.com/@gaspanik">Masaaki Komori</a> on Unsplash</p>

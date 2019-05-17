@@ -21,6 +21,10 @@
     background-color: transparent;
     background: transparent;
 }
+.Home-container .image{
+    width: 100px;
+    height: 100px;
+}
 .slick-list {
     overflow: hidden;
     width: 100vw;

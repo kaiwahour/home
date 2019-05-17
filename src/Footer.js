@@ -17,22 +17,22 @@ const Footer = () =>
     </div>
 
     <div id="sponsors-and-affiliates" className="footerBlock">
-      <p>(Sponsors and Affiliates)</p>
+      <p>SPONSORS AND AFFILIATES</p>
     </div>
 
     <div id="language-switcher" className="footerBlock">
-      <p>This page in other languages</p>
+      <p>THIS PAGE IN OTHER LANGUAGES</p>
       <ul>
-        <li><Link to="/translating?lang=jp">日本語</Link></li>
-        <li><Link to="/translating?lang=zh">中文</Link></li>
-        <li><Link to="/translating?lang=ko">한국어</Link></li>
-        <li><Link to="/translating?lang=ko">Español</Link></li>
+        <li><Link className="language" to="/translating?lang=jp">日本語</Link></li>
+        <li><Link className="language" to="/translating?lang=zh">中文</Link></li>
+        <li><Link className="language" to="/translating?lang=ko">한국어</Link></li>
+        <li><Link className="language" to="/translating?lang=ko">Español</Link></li>
       </ul>
     </div>
     <div id="legal-stuff" className="footerBlock">
-      <p>Last updated May 2019</p>
-      <p>Copyright 2019</p>
+      <p>LAST UPDATED MAY 2019</p>
+      <p>COPYRIGHT 2019</p>
     </div>
   </div>
 
-export default Footer; 
+export default Footer;

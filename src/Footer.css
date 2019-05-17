@@ -1,21 +1,32 @@
 #footer {
   display: flex;
   flex-flow: row wrap;
-  background: #eeeeee;
+  background: #ffeaee;
   text-align: left;
 }
 
 #footer .footerBlock {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
   padding: 10px;
 }
 
 #footer .footerBlock ul {
+
   list-style-type: none;
   padding: 10px;
+
+
+}
+
+#footer .language {
+    color: #F781BE;
 }
 
 #footer #sponsors-and-affiliates {
   flex-grow: 2
+
 }
 
 #footer #social-media {
@@ -24,6 +35,7 @@
 
 #footer #language-switcher {
   flex-grow: 2;
+
 }
 
 #footer #legal-stuff {

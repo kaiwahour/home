@@ -1,3 +1,5 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 .Home-container {
   display: flex;
   flex-flow: row wrap;
@@ -15,7 +17,20 @@
 .Home-container #meeting-time {
   font-size: 150%;
 }
-
+.Home-container #slider {
+    background-color: transparent;
+    background: transparent;
+}
+.Home-container .image{
+    width: 100px;
+    height: 100px;
+}
+.slick-list {
+    overflow: hidden;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
 #front-images {
   background-image: url("https://images.unsplash.com/photo-1519882189396-71f93cb4714b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;

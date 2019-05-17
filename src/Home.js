@@ -9,8 +9,8 @@ export default class Home extends Component{
             dots: true,
             infinite: false,
             speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 5, /* I like fibonacci sequence */
+            slidesToScroll: 5,
             initialSlide: 0,
             responsive: [
                 {
@@ -51,10 +51,10 @@ export default class Home extends Component{
               </div>
               <div>
                 <h3>Pls?</h3>
-                <img className="image" src="images/huskycat.jpg"/>
+                <img className="image" src="https://i.imgur.com/SVzANip.jpg"/>
               </div>
               <div>
-                <h3><i>Onegaeshimasu?</i></h3>
+                <h3>By the gym</h3>
                 <img className="image" src="images/gym.jpg"/>
               </div>
               <div>
@@ -62,11 +62,15 @@ export default class Home extends Component{
                 <img className="image" src="images/rajas.jpg"/>
               </div>
               <div>
-                <h3>Me again</h3>
-                <img className="image" src="images/huskycat.jpg"/>
+                <h3>Is it working?</h3>
+                <img className="image" src="https://i.imgur.com/JbihQ6q.gif"/>
+              </div>
+              <div>
+                <h3>I is magical?</h3>
+                <img className="image" src="https://i.imgur.com/BbwBe6w.png"/>
               </div>
             </Slider>
-            <p>Photo by <a href="https://unsplash.com/@gaspanik">Masaaki Komori</a> on Unsplash</p>
+            <p>Background photo by <a href="https://unsplash.com/@gaspanik">Masaaki Komori</a> on Unsplash</p>
           </div>
 
           <div className="App-content">

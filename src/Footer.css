@@ -25,20 +25,20 @@
 }
 
 #footer #sponsors-and-affiliates {
-  flex-grow: 2
+  flex-grow: 1
 }
 
  #footer #social-media {
   display: block;
   text-align: left;
-  flex-grow: 2;
+  flex-grow: 1;
 } 
 
 #footer #language-switcher {
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 #footer #legal-stuff {
   background: #ffc8d2;
-  flex-grow: 1;
+  width: 100%;
 }

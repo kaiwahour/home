@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './Footer.css';
 import { TwitterFollowButton } from 'react-twitter-embed';
-import { FacebookProvider, Like } from 'react-facebook';
+import { FacebookProvider, Page } from 'react-facebook';
 
 const Footer = () =>
   <div id="footer">
@@ -10,7 +10,7 @@ const Footer = () =>
       <h4>Find Us on Social Media</h4>
       <TwitterFollowButton screenName={'kaiwahour'}/>
       <FacebookProvider appId="348662969124728"> {/* oh boy public app id */}
-        <Like href="http://www.facebook.com/kaiwahour" colorScheme="dark" showFaces share /> 
+        <Page href="http://www.facebook.com/kaiwahour" colorScheme="dark"/> 
       </FacebookProvider>
       {/* Other links here */}
       <ul>
@@ -18,6 +18,7 @@ const Footer = () =>
           <img 
             id="discord_logo" src="https://discordapp.com/assets/94db9c3c1eba8a38a1fcf4f223294185.png"
             height="40px"
+            alt="Discord Logo"
           />
          </a>
       </ul>
@@ -28,8 +29,16 @@ const Footer = () =>
       <p>We are proudly independent! (For now...)</p>
     </div>
 
+    <div className="footerBlock">
+      <h4>Contact</h4>
+      <ul>
+        <li>Use FB for now.</li>
+        <li>Or, <a href="https://github.com/kaiwahour">GitHub</a> for dev things.</li>
+      </ul>
+    </div>
+
     <div id="language-switcher" className="footerBlock">
-      <h4>This Page in Other Languages</h4>
+      <h4>Translations</h4>
       <ul>
         <li><Link className="language" to="/translating?lang=jp">日本語</Link></li>
         <li><Link className="language" to="/translating?lang=zh">中文</Link></li>

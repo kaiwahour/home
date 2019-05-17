@@ -1,11 +1,17 @@
 #footer {
   display: flex;
   flex-flow: row wrap;
-  background: #eeeeee;
-  text-align: left;
+  background: #ffeaee;
+}
+
+.footerBlock h4 {
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 #footer .footerBlock {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
   padding: 10px;
 }
 
@@ -14,18 +20,24 @@
   padding: 10px;
 }
 
-#footer #sponsors-and-affiliates {
-  flex-grow: 2
+#footer .language {
+  color: #F781BE;
 }
 
-#footer #social-media {
-  flex-grow: 2;
+#footer #sponsors-and-affiliates {
+  flex-grow: 1
 }
+
+ #footer #social-media {
+  display: block;
+  flex-grow: 1;
+} 
 
 #footer #language-switcher {
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 #footer #legal-stuff {
-  flex-grow: 1;
+  background: #ffc8d2;
+  width: 100%;
 }

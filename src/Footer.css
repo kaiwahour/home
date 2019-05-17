@@ -11,7 +11,7 @@
 
 #footer .footerBlock {
   font-family: 'Roboto', sans-serif;
-  text-align: center;
+  text-align: left;
   padding: 10px;
 }
 
@@ -30,7 +30,6 @@
 
  #footer #social-media {
   display: block;
-  text-align: left;
   flex-grow: 1;
 } 
 

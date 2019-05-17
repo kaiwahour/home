@@ -2,16 +2,17 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './Footer.css';
 import { TwitterFollowButton } from 'react-twitter-embed';
-import { FacebookProvider, Page } from 'react-facebook';
+import { FacebookProvider, Like } from 'react-facebook';
 
 const Footer = () =>
   <div id="footer">
     <div id="socialmedia" className="footerBlock">
       <p>FIND US ON SOCIAL MEDIA</p>
       <TwitterFollowButton screenName={'kaiwahour'}/>
+      <FacebookProvider appId="348662969124728"> {/* oh boy public app id */}
+        <Like href="http://www.facebook.com/kaiwahour" colorScheme="dark" showFaces share /> 
+      </FacebookProvider>
       <ul>
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkaiwahour&width=173&layout=button_count&action=recommend&size=small&show_faces=true&share=true&height=46&appId" width="173" height="46" scrolling="no" frameBorder="0" allowTransparency="true" allow="encrypted-media">
-        </iframe>
         <a  href="https://discord.gg/fra3Vym"><img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg"/></a>
       </ul>
     </div>

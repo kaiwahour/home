@@ -47,8 +47,8 @@ export default class Home extends Component{
             <h3>Images and More</h3>
             <Slider {...settings} id="Slider">
               <div>
-                <h3>Can I has curry udon?</h3>
-                <img className="image" src="images/huskycat.jpg"/>
+                <h3>Uniboil</h3>
+                <img className="image" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/53295624_2333580953588710_8542725741706477568_o.jpg?_nc_cat=109&_nc_ht=scontent-sjc3-1.xx&oh=3301eb267921a617f649fb4dbce907cc&oe=5D6D402E"/>
               </div>
               <div>
                 <h3>Pls?</h3>

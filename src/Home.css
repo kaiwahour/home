@@ -24,6 +24,8 @@
 .Home-container .image{
     width: 100px;
     height: 100px;
+    border: none;
+    overflow: hidden;
 }
 .slick-list {
     overflow: hidden;

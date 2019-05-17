@@ -24,6 +24,12 @@
   color: #F781BE;
 }
 
+#footer .pink {
+  color: #F781BE;
+}
+#footer .italics {
+    font-style: italic;
+}
 #footer #sponsors-and-affiliates {
   flex-grow: 1
 }
@@ -31,7 +37,7 @@
  #footer #social-media {
   display: block;
   flex-grow: 1;
-} 
+}
 
 #footer #language-switcher {
   flex-grow: 1;

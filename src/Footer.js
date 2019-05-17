@@ -10,12 +10,12 @@ const Footer = () =>
       <h4>Find Us on Social Media</h4>
       <TwitterFollowButton screenName={'kaiwahour'}/>
       <FacebookProvider appId="348662969124728"> {/* oh boy public app id */}
-        <Page href="http://www.facebook.com/kaiwahour" colorScheme="dark"/> 
+        <Page href="http://www.facebook.com/kaiwahour" colorScheme="dark"/>
       </FacebookProvider>
       {/* Other links here */}
       <ul>
         <a href="https://discord.gg/fra3Vym">
-          <img 
+          <img
             id="discord_logo" src="https://discordapp.com/assets/94db9c3c1eba8a38a1fcf4f223294185.png"
             height="40px"
             alt="Discord Logo"
@@ -26,14 +26,19 @@ const Footer = () =>
 
     <div id="sponsors-and-affiliates" className="footerBlock">
       <h4>Sponsors and Affiliates</h4>
-      <p>We are proudly independent! (For now...)</p>
+      <h5 className="italics">Unofficial Connections</h5>
+      <a className="pink" href="http://bakuhatsutaikodan.weebly.com/">Bakuhatsu Taiko Dan</a><br/>
+      <a className="pink" href="https://www.facebook.com/davisanimeclub/">Davis Anime Club</a><br/>
+      <a className="pink" href="https://jassorg.wordpress.com/">Japanese American Student Society (JASS)</a><br/>
+      <a className="pink" href="https://www.facebook.com/groups/jlccdavis/">Japanese Language and Culture Connection (JLCC)</a><br/>
+      <a className="pink" href="https://www.facebook.com/groups/UCDJapaneseProgram/">UC Davis Japanese Program</a>
     </div>
 
     <div className="footerBlock">
       <h4>Contact</h4>
       <ul>
         <li>Use FB for now.</li>
-        <li>Or, <a href="https://github.com/kaiwahour">GitHub</a> for dev things.</li>
+        <li>Or, <a className="pink" href="https://github.com/kaiwahour">GitHub</a> for dev things.</li>
       </ul>
     </div>
 

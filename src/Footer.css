@@ -2,7 +2,6 @@
   display: flex;
   flex-flow: row wrap;
   background: #ffeaee;
-  text-align: left;
 }
 
 #footer .footerBlock {
@@ -29,9 +28,13 @@
 
 }
 
-#footer #social-media {
-  flex-grow: 2;
+#footer #facebook {
+    border: none;
+    overflow: hidden;
 }
+ #footer #social-media {
+  flex-grow: 2;
+} 
 
 #footer #language-switcher {
   flex-grow: 2;

@@ -8,6 +8,7 @@
     "react": "^16.8.6",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
+    "react-facebook": "^8.0.4",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
     "react-slick": "^0.24.0",

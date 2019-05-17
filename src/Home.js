@@ -44,31 +44,31 @@ export default class Home extends Component{
           </div>
 
           <div id="front-images">
-            <h3>Images and More</h3>
+        
             <Slider {...settings} id="Slider">
               <div>
-                <h3>Uniboil</h3>
+                <h3>Hot Pot</h3>
                 <img className="image" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/53295624_2333580953588710_8542725741706477568_o.jpg?_nc_cat=109&_nc_ht=scontent-sjc3-1.xx&oh=3301eb267921a617f649fb4dbce907cc&oe=5D6D402E"/>
               </div>
               <div>
-                <h3>Pls?</h3>
-                <img className="image" src="https://i.imgur.com/SVzANip.jpg"/>
+                <h3>Izakaya</h3>
+                <img className="image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/42045153_2227417317538408_5089713387391156224_o.jpg?_nc_cat=110&_nc_ht=scontent-lax3-1.xx&oh=3caf39b74bb331d20809d34d281e39e3&oe=5D624689"/>
               </div>
               <div>
-                <h3>By the gym</h3>
-                <img className="image" src="images/gym.jpg"/>
+                <h3>Foodsies</h3>
+                <img className="image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/41971929_2227417984205008_5384978129699733504_o.jpg?_nc_cat=101&_nc_ht=scontent-lax3-1.xx&oh=60fcb59fe6991940246f0bee595a6fa3&oe=5D5841F3"/>
               </div>
               <div>
-                <h3>Rajas</h3>
-                <img className="image" src="images/rajas.jpg"/>
+                <h3>House Party</h3>
+                <img className="image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/41934075_2227419604204846_5714010948566515712_o.jpg?_nc_cat=103&_nc_ht=scontent-lax3-1.xx&oh=462f2215180c6c98c6844dc5dc9a3efb&oe=5D5417D3"/>
               </div>
               <div>
-                <h3>Is it working?</h3>
-                <img className="image" src="https://i.imgur.com/JbihQ6q.gif"/>
+                <h3>At The Gym</h3>
+                <img className="image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/41954801_2227514500862023_1753684431706521600_n.jpg?_nc_cat=111&_nc_ht=scontent-lax3-1.xx&oh=f83783614b486224dfb8cbb89aef4be8&oe=5D584815"/>
               </div>
               <div>
-                <h3>I is magical?</h3>
-                <img className="image" src="https://i.imgur.com/BbwBe6w.png"/>
+                <h3>How To Sits</h3>
+                <img className="image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/16142195_1867299683550175_6997641311702090329_n.png?_nc_cat=107&_nc_ht=scontent-lax3-1.xx&oh=0ab931ad684fba29ac7fa9032baf644e&oe=5D629F52"/>
               </div>
             </Slider>
             <p>Background photo by <a href="https://unsplash.com/@gaspanik">Masaaki Komori</a> on Unsplash</p>

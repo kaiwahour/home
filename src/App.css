@@ -20,6 +20,11 @@
   color: white;
 }
 
+.App{
+  width: 100%;
+  background-color: white;
+}
+
 /* Class for body text */
 .App-content {
   text-align: left;

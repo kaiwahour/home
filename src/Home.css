@@ -14,12 +14,18 @@
   flex-grow: 3;
 }
 
-.Home-container #front-text {
-  padding: 10px; /* Some breathing room pls */
+.Home-container h1 {
+  font-weight: bolder;
+  margin: 3px auto 0 auto; /* top right bottom left */
+  padding: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .Home-container #meeting-time {
-  font-size: 150%;
+  font-size: 130%;
+  padding: 8px; /* Some breathing room pls */
+  margin: 0 auto 0 auto; /* centers it */
 }
 .Home-container #slider {
     background-color: transparent;

@@ -9,7 +9,11 @@ let stories = [
     en: {
       title: "Website development goes well!",
       body: "We are making a thing and it is looking good."
-    } 
+    },
+    jp: {
+      title: "サイト発達よくやる",
+      body: "このサイトやつ…かっこいいね"
+    }
   },
   {
     id: 2,
@@ -17,6 +21,10 @@ let stories = [
     en: {
       title: "Meetings continue",
       body: "You know the drill; Tuesdays from 5-7 PM in Olson 53a."
+    },
+    jp: {
+      title: "ミーティング",
+      body: "計画通り　ミーティングが続く。"
     }
   }
 ]
@@ -26,27 +34,51 @@ class News extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      component_language: 'en',   // English by default for now
       stories: stories, // This should be fetched in componentDidMount() with real data
     }
+
+    this.toggleLanguage = this.toggleLanguage.bind(this);
+  }
+
+  componentDidMount() {
+
+  }
+
+  toggleLanguage(props){
+    this.setState({
+      component_language: this.state.component_language === 'en' ? 'jp' : 'en'
+    });
   }
 
   render() {
     return(
       <div className="News App-content">
-        <h2>News & Announcements</h2>
+        <h2>News & Announcements
+
+          <button id="translationButton" onClick={this.toggleLanguage}>EN/JP</button>
+        </h2>
         <div className = "news-container">
-          {this.state.stories.map(NewsStory)}
+          {this.state.stories.map(story => {
+            return NewsStory({...story[this.state.component_language], id: story.id, date: story.date});
+          })}
         </div>
-        <hr />
+        <div className = "news-footer">
+          <button>Load more...</button>
+        </div>
       </div>
     );
   }
 }
 
-const NewsStory = (props) =>
-  <div className="NewsStory">
-    <h4>{props.en.title}</h4>
-    <p>{props.date}: {props.en.body}</p>
-  </div>
+const NewsStory = (props) => {
+  return(
+    <div className="NewsStory" key={props.id}>
+      <h4>{props.title}</h4>
+      <p>{props.date}—{props.body}</p>
+    </div>
+  );
+}
+
 
 export default News;

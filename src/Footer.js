@@ -61,7 +61,7 @@ const Footer = () =>
       </ul>
     </div>
     <div id="legal-stuff" className="footerBlock">
-      <p>Last Updated May 2019 — Copyright 2019</p>
+      <p>Copyright 2019</p>
     </div>
   </div>
 

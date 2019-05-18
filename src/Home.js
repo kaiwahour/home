@@ -8,7 +8,7 @@ export default class Home extends Component{
     render(){
       /* Settings for carousel */
       let settings = {
-          dots: true,
+          dots: false,
           infinite: false,
           speed: 500,
           slidesToShow: 5, /* I like fibonacci sequence */
@@ -39,10 +39,8 @@ export default class Home extends Component{
         {/* Space here to put special event banners, sponsor messages, etc. */}
 
         <div className="Home-container">
-          <div id="front-text">
-            <h1>Welcome to Kaiwa Hour</h1>
-            <p id="meeting-time">Meetings are held weekly <b>Tuesday, 5-7 PM</b> in <b>Olson 53a</b> at UC Davis.</p>
-          </div>
+          <h1>Welcome to Kaiwa Hour</h1>
+          <p id="meeting-time">Meetings are held weekly <b>Tuesday, 5-7 PM</b> in <b>Olson 53a</b> at UC Davis.</p>
 
           <div id="front-images">
 

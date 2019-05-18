@@ -1,0 +1,48 @@
+.News {
+  max-width: 720px;
+  margin: 0 0 0 0; /* top right bottom left */
+  padding: 0;
+}
+
+.News h2 {
+  background-image: linear-gradient(to right, #ffeaee, white);
+  margin: 0 0 10px 0;
+}
+
+.NewsStory {
+  color: #333;
+  width: 100%; /* Fill width of news container */
+  margin: 0 0 10px 0;
+  padding: 0 0 15px 0;
+}
+
+.NewsStory h3, .NewsStory h4 {
+  background-image: linear-gradient(to right, #ffeaee, white);
+  padding: 0 0 0 5px;
+}
+.NewsStory p {
+  margin: 0;
+  padding: 0 5px 0 5px;
+}
+
+.news-container {
+  display: block;
+}
+
+.news-footer {
+  background-color: white;
+  padding: 8px;
+  width: 100%;
+}
+.news-footer button {
+  border: 0px;
+}
+
+#translationButton {
+  background-color: rgba(170, 170, 170, 0.3);
+  border: 0px;
+  border-radius: 30px;
+  float: right;
+  padding: 8px;
+  margin: 5px 15px 0 0;
+}

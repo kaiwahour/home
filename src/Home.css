@@ -5,44 +5,59 @@
   flex-flow: row wrap;
 }
 
-.Home-container h1, h2, h3, h4, h5, h6 {
-  text-transform: none;
-}
-
 .Home-container div {
   display: inline-block;
   flex-grow: 3;
 }
 
-.Home-container #front-text {
-  padding: 10px; /* Some breathing room pls */
+.Home-container h1 {
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-size: 350%;
+  margin: 3px auto 0 auto; /* top right bottom left */
+  padding: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .Home-container #meeting-time {
-  font-size: 150%;
+  font-size: 130%;
+  padding: 8px; /* Some breathing room pls */
+  margin: 0 auto 0 auto; /* centers it */
 }
+
 .Home-container #slider {
     background-color: transparent;
     background: transparent;
 }
+
+.slider-caption {
+  background: rgba(255, 255, 255, 0.5);
+}
+
 .Home-container .image{
     width: 100px;
     height: 100px;
     border: none;
     overflow: hidden;
 }
+
 .Home-container .pink{
     color: #F781BE;
 }
+
 .slick-list {
     overflow: hidden;
     width: 90vw;
     margin: 0;
     padding: 0;
 }
+
 #front-images {
   background-image: url("https://images.unsplash.com/photo-1519882189396-71f93cb4714b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
+  font-size: 80%;
+  color: rgba(0,0,0,0.7);
   flex-grow: 1;
 }
 

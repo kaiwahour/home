@@ -6,34 +6,17 @@ import { FacebookProvider, Page } from 'react-facebook';
 
 const Footer = () =>
   <div id="footer">
+
     <div id="socialmedia" className="footerBlock">
-      <h4>Find Us on Social Media</h4>
-      <TwitterFollowButton screenName={'kaiwahour'}/>
+      <h4>Social Media</h4>
       <FacebookProvider appId="348662969124728"> {/* oh boy public app id */}
         <Page href="http://www.facebook.com/kaiwahour" colorScheme="dark"/>
       </FacebookProvider>
-      {/* Other links here */}
-      <ul>
-        
-      </ul>
+      <br /> {/* Use a <ul> if you need more links */}
+      <TwitterFollowButton screenName={'kaiwahour'}/>
     </div>
 
-    <div id="sponsors-and-affiliates" className="footerBlock">
-      <h4>Sponsors and Affiliates</h4>
-      <h5>Study Japanese at UC Davis</h5>
-      <ul>
-        <li><a href="https://www.facebook.com/groups/jlccdavis/">Japanese Language and Culture Connection (JLCC)</a></li>
-      </ul>
-      <h5>More Japan-related action at UC Davis</h5>
-      <ul>
-        <li><a href="http://bakuhatsutaikodan.weebly.com/">Bakuhatsu Taiko Dan</a></li>
-        <li><a href="https://www.facebook.com/davisanimeclub/">Davis Anime Club</a></li>
-        <li><a href="https://jassorg.wordpress.com/">Japanese American Student Society (JASS)</a></li>
-        <li><a href="https://www.facebook.com/groups/UCDJapaneseProgram/">UC Davis Japanese Program</a></li>
-      </ul>
-    </div>
-
-    <div className="footerBlock">
+    <div id="contacts" className="footerBlock">
       <h4>Contact</h4>
       <h5>Text and Voice Chat</h5>
       <ul>
@@ -50,6 +33,20 @@ const Footer = () =>
         <li><a className="pink" href="https://github.com/kaiwahour/home">GitHub Repository</a></li>
       </ul>
     </div>
+    <div id="sponsors-and-affiliates" className="footerBlock">
+      <h4>Sponsors and Affiliates</h4>
+      <h5>Study Japanese at UC Davis</h5>
+      <ul>
+        <li><a href="https://www.facebook.com/groups/UCDJapaneseProgram/">UC Davis Japanese Program</a></li>
+      </ul>
+      <h5>More Japan-related action at UC Davis</h5>
+      <ul>
+        <li><a href="http://bakuhatsutaikodan.weebly.com/">Bakuhatsu Taiko Dan</a></li>
+        <li><a href="https://www.facebook.com/davisanimeclub/">Davis Anime Club</a></li>
+        <li><a href="https://jassorg.wordpress.com/">Japanese American Student Society (JASS)</a></li>
+        <li><a href="https://www.facebook.com/groups/jlccdavis/">Japanese Language and Culture Connection (JLCC)</a></li>
+      </ul>
+    </div>
 
     <div id="language-switcher" className="footerBlock">
       <h4>Translations</h4>
@@ -60,8 +57,9 @@ const Footer = () =>
         <li><Link className="language" to="/translating?lang=ko">Español</Link></li>
       </ul>
     </div>
+
     <div id="legal-stuff" className="footerBlock">
-      <p>Last Updated May 2019 — Copyright 2019</p>
+      <p>Copyright 2019</p>
     </div>
   </div>
 

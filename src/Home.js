@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import Slider from 'react-slick';
 import './Home.css';
+import News from './News'
 
 export default class Home extends Component{
     render(){
@@ -92,11 +93,7 @@ export default class Home extends Component{
             <p>Background photo by <a className="pink" href="https://unsplash.com/@gaspanik">Masaaki Komori</a> on Unsplash</p>
           </div>
 
-          <div className="App-content">
-            <h2>News & Announcements</h2>
-            <p>This <code>div</code> can have announcements, news stories, or something else.</p>
-            <p>We don't want the Twitter component to be super-oversized.</p>
-          </div>
+          <News />
 
           <div>
             <TwitterTimelineEmbed

@@ -39,9 +39,10 @@ export default class Home extends Component{
         {/* Space here to put special event banners, sponsor messages, etc. */}
 
         <div className="Home-container">
-          <h1>Welcome to Kaiwa Hour</h1>
-          <p id="meeting-time">Meetings are held weekly <b>Tuesday, 5-7 PM</b> in <b>Olson 53a</b> at UC Davis.</p>
-
+          <h2>Welcome to</h2>
+          <h1>Kaiwa Hour</h1>
+          <h2>Japanese/English Conversation happens</h2>
+          <p id="meeting-time">on <b>Tuesdays, 5-7 PM</b> in <b>Olson 53a</b> at UC Davis.</p>
           <div id="front-images">
 
             <Slider {...settings} id="Slider">
@@ -97,7 +98,11 @@ export default class Home extends Component{
             <TwitterTimelineEmbed
               sourceType="profile"
               screenName="kaiwahour"
-              options={{height: 400}}
+              options={
+                {
+                  height: 400,
+                }
+              }
             />
           </div>
         </div>

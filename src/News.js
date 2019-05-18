@@ -53,12 +53,11 @@ class News extends Component {
 
   render() {
     return(
-      <div className="News App-content">
-        <h2>News & Announcements
-
+      <div className="News">
+        <h2>What's Happening
           <button id="translationButton" onClick={this.toggleLanguage}>EN/JP</button>
         </h2>
-        <div className = "news-container">
+        <div className = "news-container App-content">
           {this.state.stories.map(story => {
             return NewsStory({...story[this.state.component_language], id: story.id, date: story.date});
           })}

@@ -11,7 +11,8 @@
 
 .NewsStory {
   color: #333;
-  width: 100%; /* Fill width of news container */
+  display: block;
+  width: 80%; /* Fill width of news container */
   margin: 0 0 10px 0;
   padding: 0 0 15px 0;
 }

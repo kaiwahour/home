@@ -1,6 +1,7 @@
 #footer {
   display: flex;
   flex-flow: row wrap;
+  align-items: space-around;
   background: #ffeaee;
 }
 
@@ -26,7 +27,7 @@
 #footer .footerBlock {
   font-family: 'Roboto', sans-serif;
   text-align: left;
-  padding: 10px;
+  padding: 15px;
 }
 
 #footer .footerBlock ul {
@@ -39,9 +40,12 @@
   color: #F781BE;
 }
 
+#footer #contacts {
+  flex-grow: 2;
+}
 
 #footer #sponsors-and-affiliates {
-  flex-grow: 1
+  flex-grow: 1;
 }
 
  #footer #social-media {

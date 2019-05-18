@@ -37,13 +37,14 @@ class News extends Component {
         <div className = "news-container">
           {this.state.stories.map(NewsStory)}
         </div>
+        <hr />
       </div>
     );
   }
 }
 
 const NewsStory = (props) =>
-  <div class="NewsStory">
+  <div className="NewsStory">
     <h4>{props.en.title}</h4>
     <p>{props.date}: {props.en.body}</p>
   </div>

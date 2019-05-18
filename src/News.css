@@ -1,29 +1,26 @@
 .News {
-  background-color: white;
   max-width: 800px;
+  margin: 0 0 0 0; /* top right bottom left */
+  padding: 0;
 }
 
-.News h2, h3 {
-  font-weight: lighter;
-  margin: 0 0 10px 0; /* top right bottom left */
-  padding: 0;
+.News h2 {
+  background-image: linear-gradient(to right, lightgrey, white);
 }
 
 .NewsStory {
   color: #333;
   width: 100%; /* Fill width of news container */
   margin: 0 0 10px 0;
+  padding: 0 0 15px 0;
 }
 
-.NewsStory h2, h3, h4 {
-  margin: 0;
-  padding: 0;
+.NewsStory h3, .NewsStory h4 {
+  background: #eee;
 }
-
 .NewsStory p {
   margin: 0;
-  padding: 0;
-  text-indent: 1em;
+  padding: 5px;
 }
 
 .news-container {

@@ -1,3 +1,8 @@
+h2, h3, h4 {
+  font-weight: lighter;
+  padding: 0 0 0 10px;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;

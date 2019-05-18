@@ -16,7 +16,7 @@
 }
 
 .NewsStory h3, .NewsStory h4 {
-  background: #eee;
+  background-image: linear-gradient(to right, #eee, white);
 }
 .NewsStory p {
   margin: 0;

@@ -2,9 +2,16 @@
   margin-left: 15px;
   margin-right: 15px;
 }
+
+.Faq h2 { /* Headings for FAQ Sections */
+  color: rgb(255, 57, 93);
+}
+
 .Faq .Question h3 {
+  font-weight: bold;
   color: #222;
 }
+
 .Faq .Question p {
-  color: black;
+  color: #333;
 }

@@ -2,7 +2,15 @@ import React from 'react';
 
 const About = () =>
   <div className="App-content">
-    <h2>About Kaiwa Hour</h2>
+    <h1>About Kaiwa Hour</h1>
+    <p>
+      Kaiwa Hour is a place for Japanese-speaking and English-speaking 
+      students to meet and openly communicate. We hope that Kaiwa Hour 
+      continues to be a place for fostering conversation and understanding 
+      as it has been for many generations of students in the past.
+    </p>     
+
+    <h2>Origins</h2>
     <p>
       Kaiwa Hour began approximately 15 years ago with about 40 students from a
       Japanese university visiting the USA who wanted to become tutors. Since there
@@ -10,12 +18,7 @@ const About = () =>
       department at UCD began a new class under the name of “coffee hour.” Since
        then, that class has grown into Kaiwa Hour ("Japanese Conversation Hour").
      </p>
-    <p>
-      Kaiwa Hour is a place for Japanese and American students to meet and openly
-      communicate. We hope that Kaiwa Hour continues to be a place for fostering
-      conversation and understanding as it has been for many generations of
-      students in the past.
-    </p> 
+
   </div>
 
 export default About;

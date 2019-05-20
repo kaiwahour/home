@@ -57,6 +57,12 @@
     color: #F781BE;
 }
 
+.Home-container .image-container > img:hover {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
 .slick-list {
     overflow: hidden;
     width: 90vw;

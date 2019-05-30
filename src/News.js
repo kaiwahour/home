@@ -17,8 +17,9 @@ class News extends Component {
   componentDidMount() {
     axios.get("/fakeApi/fakeNews.json")
       .then(response => {
-        const stories = response.data;
-        console.log(stories);
+        const stories = response.data.reverse(); 
+        /* TODO: come up with a better solution than reversing for 
+                 chronological order */
         this.setState({ stories });
       })
       .catch(error => {
@@ -35,7 +36,8 @@ class News extends Component {
   render() {
     return(
       <div className="News">
-        <h2>What's Happening
+        <h2>
+          What's Happening
           <button id="translationButton" onClick={this.toggleLanguage}>EN/JP</button>
         </h2>
         <div className = "news-container App-content">

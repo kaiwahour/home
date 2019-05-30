@@ -6,7 +6,10 @@
 
 .News h2 {
   background-image: linear-gradient(to right, #ffeaee, white);
+  font-size: 150%;
   margin: 0 0 10px 0;
+  padding: 0 0 0 10px;
+  text-align: left;
 }
 
 .NewsStory {
@@ -40,9 +43,10 @@
 }
 
 #translationButton {
-  background-color: rgba(170, 170, 170, 0.3);
+  background-color: rgba(212, 212, 212, 0.3);
   border: 0px;
   border-radius: 30px;
+  color: grey;
   float: right;
   padding: 8px;
   margin: 5px 15px 0 0;

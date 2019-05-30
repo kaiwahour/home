@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "date": "05/22/2019",
+      "en": {
+        "title": "Website development goes well!",
+        "body": "We are making a thing and it is looking good."
+      },
+      "jp": {
+        "title": "サイト発達よくやる",
+        "body": "このサイトやつ…かっこいいね"
+      }
+    },
+    {
+      "id": 2,
+      "date": "05/22/2019",
+      "en": {
+        "title": "Meetings continue",
+        "body": "You know the drill; Tuesdays from 5-7 PM in Olson 53a."
+      },
+      "jp": {
+        "title": "ミーティング",
+        "body": "計画通り　ミーティングが続く。"
+      }
+    },
+    {
+      "id": 3,
+      "date": "05/26/2019",
+      "en": {
+        "title": "Kaiwa Hour Website is launched!",
+        "body": "That took some hard work."
+      },
+      "jp": {
+        "title": "会話アワーサイト、ゴゴゴゴゴ！",
+        "body": "お疲れ様です。"
+      }
+    }
+  ]

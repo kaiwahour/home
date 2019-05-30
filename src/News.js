@@ -15,7 +15,7 @@ class News extends Component {
   }
 
   componentDidMount() {
-    axios.get("/fakeApi/fakeNews.json")
+    axios.get("https://raw.githubusercontent.com/kaiwahour/fakeApi/master/fakeNews.json")
       .then(response => {
         const stories = response.data.reverse(); 
         /* TODO: come up with a better solution than reversing for 

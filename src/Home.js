@@ -39,10 +39,14 @@ export default class Home extends Component{
         {/* Space here to put special event banners, sponsor messages, etc. */}
 
         <div className="Home-container">
-          <h2>Welcome to</h2>
-          <h1>Kaiwa Hour</h1>
-          <h2>Japanese/English Conversation happens</h2>
-          <p id="meeting-time">on <b>Tuesdays, 5-7 PM</b> in <b>Olson 53a</b> at UC Davis.</p>
+          <div id="intro-blurb">
+            <h2>Welcome to</h2>
+            <h1>Kaiwa Hour</h1>
+            <h2>Japanese/English Conversation happens</h2>
+            <p id="meeting-time">on <b>Tuesdays, 5-7 PM</b> in <b>Olson 53a</b> at UC Davis.</p>
+          </div>
+
+          {/*
           <div id="front-images">
 
             <Slider {...settings} id="Slider">
@@ -91,8 +95,7 @@ export default class Home extends Component{
             </Slider>
             <p>Background photo by <a className="pink" href="https://unsplash.com/@gaspanik">Masaaki Komori</a> on Unsplash</p>
           </div>
-
-          <News />
+          */}
 
           <div>
             <TwitterTimelineEmbed
@@ -105,6 +108,7 @@ export default class Home extends Component{
               }
             />
           </div>
+          <News />
         </div>
       </div>
   );

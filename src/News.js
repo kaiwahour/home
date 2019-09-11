@@ -9,9 +9,11 @@ class News extends Component {
     this.state = {
       component_language: 'en',   // English by default for now
       stories: [], // This should be fetched in componentDidMount() with real data
+      to_display: 2, // Display 2 stories to start by default
     }
 
     this.toggleLanguage = this.toggleLanguage.bind(this);
+    this.onLoadMoreClick = this.onLoadMoreClick.bind(this);
   }
 
   componentDidMount() {
@@ -33,6 +35,20 @@ class News extends Component {
     });
   }
 
+  onLoadMoreClick(){
+    const INCREMENT_VALUE = 2;
+    let newToDisplay; 
+    if (this.state.to_display + INCREMENT_VALUE > this.state.stories.length) {
+      newToDisplay = this.state.stories.length;
+    } else {
+      newToDisplay = this.state.to_display + INCREMENT_VALUE;
+    }
+    ; 
+    console.log("Here's your value", newToDisplay);
+    this.setState({ to_display: newToDisplay});
+    console.log(this.state)
+  }
+
   render() {
     return(
       <div className="News">
@@ -41,12 +57,18 @@ class News extends Component {
           <button id="translationButton" onClick={this.toggleLanguage}>EN/JP</button>
         </h2>
         <div className = "news-container App-content">
-          {this.state.stories.map(story => {
-            return NewsStory({...story[this.state.component_language], id: story.id, date: story.date});
-          })}
+          {this.state.stories.length >= this.state.to_display ? 
+            this.state.stories.slice(0, this.state.to_display).map(story => {
+              return NewsStory({...story[this.state.component_language], id: story.id, date: story.date});
+            })
+            : <p>Something went wrong! There is no stories to display!</p>
+          }
         </div>
         <div className = "news-footer">
-          <button>Load more...</button>
+          {this.state.stories.length > this.state.to_display 
+            ? <button onClick={this.onLoadMoreClick}>Load more...</button>
+            : <div />  /* Empty div */
+          }
         </div>
       </div>
     );

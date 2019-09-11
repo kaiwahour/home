@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 import './Home.css';
 import News from './News'
 
 export default class Home extends Component{
     render(){
       /* Settings for carousel */
+      /*
       let settings = {
           dots: false,
           infinite: true,
           speed: 500,
-          slidesToShow: 5, /* I like fibonacci sequence */
+          slidesToShow: 5,
           slidesToScroll: 1,
           initialSlide: 0,
           responsive: [
@@ -34,6 +35,7 @@ export default class Home extends Component{
               }
           ]
       };
+      */
     return(
       <div>
         {/* Space here to put special event banners, sponsor messages, etc. */}

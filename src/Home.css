@@ -1,18 +1,15 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
-.Home-container {
-  display: flex;
-  flex-flow: row wrap;
+.title-container {
   margin: 0;
   padding: 0;
 }
 
-.Home-container div {
+.title-container div {
   display: inline-block;
-  flex-grow: 3;
 }
 
-.Home-container h2 {
+.title-container h2 {
   font-size: 110%;
   margin: 3px auto 0 auto; /* top right bottom left */
   padding: 0;
@@ -20,24 +17,22 @@
   width: 100%;
 }
 
-.Home-container h1 {
+.title-container h1 {
   font-weight: lighter;
   font-family: 'Raleway', sans-serif;
   font-size: 290%;
-  margin: 0 auto 0 auto; /* top right bottom left */
-  padding: 0;
   text-align: center;
   width: 100%;
 }
 
-.Home-container #meeting-time {
+.title-container #meeting-time {
   font-weight: normal;
   font-size: 110%;
   padding: 4px; /* Some breathing room pls */
   margin: 0 auto 1em auto; /* centers it */
 }
 
-.Home-container #slider {
+.title-container #slider {
     background-color: transparent;
     background: transparent;
 }
@@ -46,16 +41,22 @@
   background: rgba(255, 255, 255, 0.5);
 }
 
-.Home-container .image{
-    width: 100px;
-    height: 100px;
-    border: none;
-    overflow: hidden;
+#front-images {
+  margin: 0 auto 0 auto;
+  padding: 0 1rem 0 1rem;
+  text-align: left;
 }
 
-.Home-container .pink{
+#front-images .image{
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.title-container .pink {
     color: #F781BE;
 }
+
 
 .slick-list {
     overflow: hidden;
@@ -79,4 +80,24 @@
 
 #front-images p {
   background: rgba(255, 255, 255, 0.7);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+
+#welcome-blurb {
+  text-align: left;
+  vertical-align: top;
+  padding: 1rem;
+}
+
+#recruitment {
+  flex-grow: 2;
+  padding: 0.5rem 1rem 1rem 0.5rem;
+  text-align: left;
 }

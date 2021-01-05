@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.19.*",
+    "axios": "^0.21.*",
     "react": "^16.13.*",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.13.*",
